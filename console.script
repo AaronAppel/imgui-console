@@ -1,4 +1,5 @@
 // Comment
+clear
 help filter
 get background_color
 set background_color [255 0 0 255]

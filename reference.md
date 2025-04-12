@@ -33,7 +33,7 @@ run - executes script by name
 ## Logging Output
 // Log example information:
 console.System().Log(csys::ItemType::INFO) << "George enjoys swinging" << csys::endl;
-console.System().Log(csys::ItemType::WARNING) << "Look out for that tree!" << csys::endl;
+console.System().Log(csys::ItemType::WARNING) << "Watch out for that tree!" << csys::endl;
 console.System().Log(csys::ItemType::SEVERE) << "Ouch!" << csys::endl;
 
 ## Rendering Console imgui Window

@@ -60,7 +60,7 @@ Inspired by rmxbalanque's [imgui-console](https://github.com/rmxbalanque/imgui-c
 
 and RedSkittleFox's [imgui-console](https://github.com/RedSkittleFox/imgui-console)
 
-<img src="https://github.com/AaronAppel/imgui-console/blob/master/RedSkittleFox_ImguiConsole.jpg" width=200 height=150 />
+<img src="https://github.com/AaronAppel/imgui-console/blob/ReadMeAssets/RedSkittleFox_ImguiConsole.jpg" width=200 height=150 />
 
 and cstom4994's [imgui_lua_inspector](https://github.com/cstom4994/imgui_lua_inspector)
 

@@ -3,7 +3,7 @@ imgui-console
 A starting point for my own dear imgui console widget.
 See [Inspiration](https://github.com/AaronAppel/imgui-console/edit/master/README.md#inspiration-and-credits) section for credits.
 
-I am aiming to combine the awesome search and hints features of RedSkittleFox's [imgui-console](https://github.com/RedSkittleFox/imgui-console), with rmxbalanque's excellent UI and scripts execution [imgui-console](https://github.com/rmxbalanque/imgui-console) to get a powerful development console. Add in the genius registry edit from [imgui_lua_inspector](https://github.com/cstom4994/imgui_lua_inspector) and the result would be a more complete and super powerful devlopment console.
+I am aiming to combine the awesome search and hints features of RedSkittleFox's [imgui-console](https://github.com/RedSkittleFox/imgui-console), with rmxbalanque's excellent UI and scripts execution [imgui-console](https://github.com/rmxbalanque/imgui-console) to get a powerful development console. Add in the genius registry edit from cstom4994's [imgui_lua_inspector](https://github.com/cstom4994/imgui_lua_inspector) and the result would be a more complete and super powerful devlopment console.
 
 Each are a little dated and have some buggy or unintitive behaviour for me so I ouwld like to improve on that.
 Afterwards I hope to add my own unique features, if I find the time.

@@ -57,7 +57,7 @@ namespace csys
          *      System to be copied.
          */
         System &operator=(const System &rhs);
-        
+
         /*!
          * \brief
          *      Parse given command line input and run it
@@ -169,7 +169,7 @@ namespace csys
             // Check if command has a name
             else if (range.first == name.End())
             {
-                Log(ERROR) << "Empty command name given" << csys::endl;
+                Log(SEVERE) << "Empty command name given" << csys::endl;
                 return;
             }
 

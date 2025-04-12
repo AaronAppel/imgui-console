@@ -28,7 +28,7 @@ namespace csys
         COMMAND = 0,
         LOG,
         WARNING,
-        ERROR,
+        SEVERE, // ERROR conflicts with wingdi.h ERROR 0 macro
         INFO,
         NONE
     };
@@ -155,6 +155,11 @@ namespace csys
          *      Console log
          */
         std::vector<Item> &Items();
+
+        /*!
+         * \brief Delete console item from end
+         */
+        void PopBack();
 
         /*!
          * \brief Delete console item log history

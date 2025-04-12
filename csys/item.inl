@@ -45,7 +45,7 @@ namespace csys
                 return '\t' + m_Data;
             case WARNING:
                 return s_Warning.data() + m_Data;
-            case ERROR:
+            case SEVERE:
                 return s_Error.data() + m_Data;
             case INFO:
                 return m_Data;
@@ -76,6 +76,14 @@ namespace csys
     CSYS_INLINE std::vector<Item> &ItemLog::Items()
     {
         return m_Items;
+    }
+
+    CSYS_INLINE void ItemLog::PopBack()
+    {
+        if (!m_Items.empty())
+        {
+            m_Items.erase(m_Items.end()-1);
+        }
     }
 
     CSYS_INLINE void ItemLog::Clear()

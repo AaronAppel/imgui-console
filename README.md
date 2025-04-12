@@ -1,17 +1,44 @@
-# imgui-console
-Console Widget for [Dear ImGui](https://github.com/ocornut/imgui)
+imgui-console
+---
+A starting point for my own dear imgui console widget.
+See [Inspiration](https://github.com/AaronAppel/imgui-console/edit/master/README.md#inspiration-and-credits) section for credits.
 
-![imgui_console](https://user-images.githubusercontent.com/46074377/85931741-7b756200-b87b-11ea-9112-89d7fca305a0.gif)
+I am aiming to combine the awesome search and hints features of RedSkittleFox's [imgui-console](https://github.com/RedSkittleFox/imgui-console), with rmxbalanque's excellent UI and scripts execution [imgui-console](https://github.com/rmxbalanque/imgui-console) to get a powerful development console. Add in the genius registry edit from [imgui_lua_inspector](https://github.com/cstom4994/imgui_lua_inspector) and the result would be a more complete and super powerful devlopment console.
 
-imgui-console aims to provide a console that allows the client to easly modify application variables, execute commands and run scripts at run-time. It started as a widget to test the [csys library](https://github.com/rmxbalanque/csys) during its development. While it was developed as an example use case for _csys_, I believe it can be useful for other projects.
+Each are a little dated and have some buggy or unintitive behaviour for me so I ouwld like to improve on that.
+Afterwards I hope to add my own unique features, if I find the time.
 
-See [example project](/example) for usage and integration details.
+## My Changes
+- "//" Comment support in .script files
 
-## Features
-- Smart scrolling, timetamps, log filtering, colored console output.
-- Console settings and visuals are preserved through sessions. (Information stored in the imgui.ini)
-- All features that _csys_ provides. (Tab completion, commands, variables, scripts, etc)
+## Future Features Wishlist
+#### Output Search CTRL + F:
+- Character highlighting
+- Navigation between results
 
-## Binaries
-Pre-compiled binaires of the example project for imgui console.
-- [Windows](https://drive.google.com/uc?export=download&id=1aDuMkUG-enGSPa9SxILljgCFPuR0guPa)
+#### Advanced Search:
+- Case sensitivity
+- Exact versus fuzzy find/matching
+- Regex matching
+
+#### Registry Tab:
+- View registered variables and commands information
+- Edit registery entries
+- Execute registery entries
+- Reload registry at runtime (hot reload support)
+
+## Inspiration and Credits  
+
+Inspired by rmxbalanque's [imgui-console](https://github.com/rmxbalanque/imgui-console)
+
+<img class="animated-gif" src="https://user-images.githubusercontent.com/46074377/85931741-7b756200-b87b-11ea-9112-89d7fca305a0.gif" width="200" height="150"></img>
+
+and RedSkittleFox's [imgui-console](https://github.com/RedSkittleFox/imgui-console)
+
+<img src="https://github.com/AaronAppel/imgui-console/blob/master/RedSkittleFox_ImguiConsole.jpg" width=200 height=150 />
+
+and cstom4994's [imgui_lua_inspector](https://github.com/cstom4994/imgui_lua_inspector)
+
+<img class="animated-gif" src="https://github.com/cstom4994/imgui_lua_inspector/blob/master/demo.gif" width="200" height="150"></img>
+
+Make sure to check them out!

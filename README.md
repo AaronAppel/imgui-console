@@ -1,7 +1,7 @@
 imgui-console
 ---
 See [Inspiration](https://github.com/AaronAppel/imgui-console/edit/master/README.md#inspiration-and-credits) section for credits.
-See [reference.md](https://github.com/AaronAppel/imgui-console/blob/main/example.md) for usage.
+See [reference.md](https://github.com/AaronAppel/imgui-console/blob/main/reference.md) for usage.
 
 
 A starting point for my own dear imgui console widget.

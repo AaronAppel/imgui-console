@@ -1,6 +1,8 @@
+Original source code license : https://github.com/rmxbalanque/imgui-console/blob/master/LICENSE.txt
+
 MIT License
 
-Copyright (c) 2020 - present, Roland Munguia
+Copyright (c) 2025 Aaron Appel
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

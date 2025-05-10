@@ -23,6 +23,7 @@ Afterwards I hope to add my own unique features, if I find the time.
 - Case sensitivity
 - Exact versus fuzzy find/matching
 - Regex matching
+- Search history panel with arrow key navigation and auto completion
 
 #### Debugging:
 - Option to output text buffer content to file
